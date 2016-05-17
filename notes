@@ -1,0 +1,6 @@
+function <- arguments | global Vars
+	 -> return code | stdout | global vars
+
+source functions.lib
+
+. ./functions.lib
